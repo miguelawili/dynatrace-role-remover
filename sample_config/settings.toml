@@ -1,0 +1,9 @@
+appName = "dynatrace-role-remover"
+
+[logging]
+level = "debug"
+
+[dynatrace]
+clientId = ""
+clientSecret = ""
+urn = ""
