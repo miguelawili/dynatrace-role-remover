@@ -1,3 +1,3 @@
-dynatrace-role-remover
+dynatrace-cleaner
 
-Simple script using GoLang that removes local roles assigned to users. Useful for cleaning up.
+Simple script using GoLang that helps with account management cleanup.

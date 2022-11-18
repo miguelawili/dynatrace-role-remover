@@ -8,16 +8,18 @@ import (
 )
 
 type config struct {
-	AppName   string
-	Logging   logging
-	Dynatrace Dynatrace
+	AppName            string
+	Logging            logging
+	Dynatrace          dynatrace
+	WhitelistedUsers   []string
+	WhitelistedDomains []string
 }
 
 type logging struct {
 	Level string
 }
 
-type Dynatrace struct {
+type dynatrace struct {
 	ClientId     string
 	ClientSecret string
 	Urn          string
